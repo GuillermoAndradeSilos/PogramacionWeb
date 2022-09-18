@@ -1,0 +1,17 @@
+﻿@model Unidad1Actividad1.Models.PerfilViewModel
+<html>
+<head>
+    <title>Perfil del estudiante</title>
+    <link href="~/StyleSheet.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <h1>Datos del estudiante</h1>
+        <img src="/fotoperfil.jpg" height="200px"/>
+        <p>Materia que cursa actualmente: @(Model.NombreMateria)</p>
+        <p>Semestre: @( (Model.Semestre==0)? Model.Semestre=1 : Model.Semestre)</p>
+        <p>Periodo de ingreso: @(Model.Periodo.ToShortDateString())</p>
+        <p>Alumno: @(Model.NombreAlumno)</p>
+    </div>
+</body>
+</html>

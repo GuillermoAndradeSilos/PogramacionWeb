@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+    <title>Registro de datos</title>
+    <link href="~/StyleSheet.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <h1>Registro</h1>
+        <form action="~/home/miperfil">
+            <label class="centrar">Nombre de la materia:</label>
+            <select class="centrar" name="NombreMateria">
+                <option>Programación Web</option>
+                <option>Lenguajes y Automatas II</option>
+                <option>Inglés 4</option>
+            </select><br /><br />
+            <label class="centrar">Semestre</label>
+            <input class="centrar" type="number" name="Semestre" min="1" max="12"/><br /><br />
+            <label class="centrar">Periodo (fecha de inicio)</label>
+            <input class="centrar" type="date" name="Periodo" /><br /><br />
+            <label class="centrar">Nombre del alumno:</label>
+            <input class="centrar" type="text" name="NombreAlumno"/><br /><br />
+            <input class="centrar" type="submit" value="Iniciar Sesión"/>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "wqcaglnbPGqdphDsKaJ0I2I9Md4etZFISz4YV5oGDgM=",
+  "Source": "Unidad1Actividad1",
+  "BasePath": "_content/Unidad1Actividad1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Unidad1Actividad1\\wwwroot",
+      "Source": "Unidad1Actividad1",
+      "ContentRoot": "C:\\Users\\Usuar\\Desktop\\Memo\\1.1.1 7mo Semestre\\Progra Web\\Unidad1Actividad1\\wwwroot\\",
+      "BasePath": "_content/Unidad1Actividad1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Usuar\\Desktop\\Memo\\1.1.1 7mo Semestre\\Progra Web\\Unidad1Actividad1\\wwwroot\\fotoperfil.jpg",
+      "SourceId": "Unidad1Actividad1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuar\\Desktop\\Memo\\1.1.1 7mo Semestre\\Progra Web\\Unidad1Actividad1\\wwwroot\\",
+      "BasePath": "_content/Unidad1Actividad1",
+      "RelativePath": "fotoperfil.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotoperfil.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuar\\Desktop\\Memo\\1.1.1 7mo Semestre\\Progra Web\\Unidad1Actividad1\\wwwroot\\StyleSheet.css",
+      "SourceId": "Unidad1Actividad1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuar\\Desktop\\Memo\\1.1.1 7mo Semestre\\Progra Web\\Unidad1Actividad1\\wwwroot\\",
+      "BasePath": "_content/Unidad1Actividad1",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
