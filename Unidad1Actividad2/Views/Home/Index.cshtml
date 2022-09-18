@@ -1,0 +1,23 @@
+@model System.String
+<html>
+<head>
+    <title>Promediar alumno</title>
+</head>
+<body>
+    <h1>Promediar</h1>
+    @{
+        string[] resultados = @Model.Split('/');
+        <form action="~/home/Index">
+            <label>Primera calificación:</label>
+            <input type="number" name="@(resultados[0])" value="@(resultados[1])"/><br /><br />
+            <label>Segunda calificación:</label>
+            <input type="number" name="@(resultados[2])" value="@(resultados[3])"/><br /><br />
+            <label>Tercera calificación:</label>
+            <input type="number" name="@(resultados[4])" value="@(resultados[5])"/><br /><br />
+           <input type="submit" value="Promediar"/><br /><br />
+        </form>
+        <label>Promedio: @(resultados[6])  </label><br /><br />
+        <label>Estado: @(resultados[7]) </label>
+    }
+</body>
+</html>
